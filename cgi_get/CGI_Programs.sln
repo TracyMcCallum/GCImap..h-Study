@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgi_get", "cgi_get\cgi_get.vcxproj", "{E90B54BE-BCFD-4305-AC83-E3EC465110E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgi_post", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{15181AD5-961E-431A-A573-545C64616740}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication6", "..\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.vcxproj", "{28C0B55B-C7D7-4DFF-9198-BD001C67536B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{F6AE09BA-C7C2-4BAD-9563-3E6F530C4674}"
+	ProjectSection(SolutionItems) = preProject
+		CGI_PROGRAMMING\Batchmail.cpp = CGI_PROGRAMMING\Batchmail.cpp
+		CGI_PROGRAMMING\cgi_get.cpp = CGI_PROGRAMMING\cgi_get.cpp
+		CGI_PROGRAMMING\cgi_post.cpp = CGI_PROGRAMMING\cgi_post.cpp
+		CGI_PROGRAMMING\CGImap.h = CGI_PROGRAMMING\CGImap.h
+		CGI_PROGRAMMING\DataToSpreadsheet.cpp = CGI_PROGRAMMING\DataToSpreadsheet.cpp
+		CGI_PROGRAMMING\ExtractInfo.cpp = CGI_PROGRAMMING\ExtractInfo.cpp
+		CGI_PROGRAMMING\ExtractUndeliverable.cpp = CGI_PROGRAMMING\ExtractUndeliverable.cpp
+		CGI_PROGRAMMING\FormData.cpp = CGI_PROGRAMMING\FormData.cpp
+		CGI_PROGRAMMING\FormData.h = CGI_PROGRAMMING\FormData.h
+		CGI_PROGRAMMING\FormDump.cpp = CGI_PROGRAMMING\FormDump.cpp
+		CGI_PROGRAMMING\GETtest.html = CGI_PROGRAMMING\GETtest.html
+		CGI_PROGRAMMING\INFOtest.html = CGI_PROGRAMMING\INFOtest.html
+		CGI_PROGRAMMING\iostream.h = CGI_PROGRAMMING\iostream.h
+		CGI_PROGRAMMING\mailinglist.html = CGI_PROGRAMMING\mailinglist.html
+		CGI_PROGRAMMING\mlm.cpp = CGI_PROGRAMMING\mlm.cpp
+		CGI_PROGRAMMING\POSTtest.html = CGI_PROGRAMMING\POSTtest.html
+		CGI_PROGRAMMING\ProcessApplication.cpp = CGI_PROGRAMMING\ProcessApplication.cpp
+		CGI_PROGRAMMING\readLower.h = CGI_PROGRAMMING\readLower.h
+		CGI_PROGRAMMING\RemoveDuplicates.cpp = CGI_PROGRAMMING\RemoveDuplicates.cpp
+		CGI_PROGRAMMING\RemoveGroup.cpp = CGI_PROGRAMMING\RemoveGroup.cpp
+		CGI_PROGRAMMING\SimpleForm.html = CGI_PROGRAMMING\SimpleForm.html
+		CGI_PROGRAMMING\TestData.txt = CGI_PROGRAMMING\TestData.txt
+		TICPP-2nd-ed-Vol-one-printed.pdf = TICPP-2nd-ed-Vol-one-printed.pdf
+		TICPP-2nd-ed-Vol-two-printed.pdf = TICPP-2nd-ed-Vol-two-printed.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Debug|x64.ActiveCfg = Debug|x64
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Debug|x64.Build.0 = Debug|x64
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Debug|x86.Build.0 = Debug|Win32
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Release|x64.ActiveCfg = Release|x64
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Release|x64.Build.0 = Release|x64
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Release|x86.ActiveCfg = Release|Win32
+		{E90B54BE-BCFD-4305-AC83-E3EC465110E4}.Release|x86.Build.0 = Release|Win32
+		{15181AD5-961E-431A-A573-545C64616740}.Debug|x64.ActiveCfg = Debug|x64
+		{15181AD5-961E-431A-A573-545C64616740}.Debug|x64.Build.0 = Debug|x64
+		{15181AD5-961E-431A-A573-545C64616740}.Debug|x86.ActiveCfg = Debug|Win32
+		{15181AD5-961E-431A-A573-545C64616740}.Debug|x86.Build.0 = Debug|Win32
+		{15181AD5-961E-431A-A573-545C64616740}.Release|x64.ActiveCfg = Release|x64
+		{15181AD5-961E-431A-A573-545C64616740}.Release|x64.Build.0 = Release|x64
+		{15181AD5-961E-431A-A573-545C64616740}.Release|x86.ActiveCfg = Release|Win32
+		{15181AD5-961E-431A-A573-545C64616740}.Release|x86.Build.0 = Release|Win32
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Debug|x64.ActiveCfg = Debug|x64
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Debug|x64.Build.0 = Debug|x64
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Debug|x86.ActiveCfg = Debug|Win32
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Debug|x86.Build.0 = Debug|Win32
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Release|x64.ActiveCfg = Release|x64
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Release|x64.Build.0 = Release|x64
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Release|x86.ActiveCfg = Release|Win32
+		{28C0B55B-C7D7-4DFF-9198-BD001C67536B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96C16382-33AF-41AA-A740-F7D8EDD5CFBA}
+	EndGlobalSection
+EndGlobal
